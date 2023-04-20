@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "openapi-starter",
+  "name_for_human": "OpenAI Starter Plugin",
+  "description_for_model": "",
+  "description_for_human": "",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://your-app-url.com/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://your-app-url.com/.well-known/logo.png",
+  "contact_email": "hello@contact.com", 
+  "legal_info_url": "hello@legal.com"
+}
+
