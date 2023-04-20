@@ -16,8 +16,8 @@ RUN apt-get update && \
 
 # COPY . /code/
 
-COPY entrypoint.sh /entrypoint.sh
-COPY pluginconfig.sh /pluginconfig.sh
+COPY docker-entrypoint.sh /docker-entrypoint.sh
+COPY hostname-config.sh /hostname-config.sh
 
-RUN chmod +x /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+RUN chmod +x /docker-entrypoint.sh
+ENTRYPOINT ["/docker-entrypoint.sh"]

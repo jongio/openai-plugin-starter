@@ -8,7 +8,7 @@ read -r OPENAI_API_KEY
 export OPENAI_API_KEY
 # export DATASTORE=redis 
 
-./hostconfig.sh
+./hostname-config.sh
 
 echo "Click on GitHub Codespaces PORTS tab.  Right click on port 8000, and set Port Visibility to Public. Once Port 8000 if Public, press Enter to continue..."
 read -r placeholder_var

@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-./pluginconfig.sh
+./hostname-config.sh
 
 # Run your service, e.g. for python:
 
